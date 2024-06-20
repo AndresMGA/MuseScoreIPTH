@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libworkspacescene.a CMakeFiles/workspacescene.dir/Unity/unity_0_cxx.cxx.o CMakeFiles/workspacescene.dir/qrc_workspacescene.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libworkspacescene.a

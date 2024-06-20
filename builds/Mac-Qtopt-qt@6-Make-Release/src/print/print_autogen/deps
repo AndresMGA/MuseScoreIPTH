@@ -1,0 +1,9 @@
+print_autogen/timestamp: \
+	/Users/andresgarcia/MuseScore/build/module.cmake \
+	/Users/andresgarcia/MuseScore/src/print/CMakeLists.txt \
+	/Users/andresgarcia/MuseScore/src/print/internal/printprovider.cpp \
+	/Users/andresgarcia/MuseScore/src/print/internal/printprovider.h \
+	/Users/andresgarcia/MuseScore/src/print/iprintprovider.h \
+	/Users/andresgarcia/MuseScore/src/print/printmodule.cpp \
+	/Users/andresgarcia/MuseScore/src/print/printmodule.h \
+	/usr/local/Cellar/cmake/3.29.5/bin/cmake

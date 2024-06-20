@@ -1,0 +1,1503 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:25 (project)"
+    message: |
+      The system is: Darwin - 22.6.0 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:25 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ld: library not found for -lSystem
+      clang: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:25 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is AppleClang, found in:
+        /Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/3.29.5/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:25 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ld: library not found for -lc++
+      clang: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:25 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is AppleClang, found in:
+        /Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/3.29.5/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:25 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-IAEyWS"
+      binary: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-IAEyWS"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-IAEyWS'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.29.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a6a6f/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a6a6f.dir/build.make CMakeFiles/cmTC_a6a6f.dir/build
+        Building C object CMakeFiles/cmTC_a6a6f.dir/CMakeCCompilerABI.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_a6a6f.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_a6a6f.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_a6a6f.dir/CMakeCCompilerABI.c.o -c /usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CMakeCCompilerABI.c
+        Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+        Target: x86_64-apple-darwin22.6.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=13.3 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 857.1 -v -fcoverage-compilation-dir=/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-IAEyWS -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3 -dependency-file CMakeFiles/cmTC_a6a6f.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_a6a6f.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-IAEyWS -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -no-opaque-pointers -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_a6a6f.dir/CMakeCCompilerABI.c.o -x c /usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 14.0.3 (clang-1403.0.22.14.1) default target x86_64-apple-darwin22.6.0
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include
+         /Library/Developer/CommandLineTools/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking C executable cmTC_a6a6f
+        /usr/local/Cellar/cmake/3.29.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6a6f.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_a6a6f.dir/CMakeCCompilerABI.c.o -o cmTC_a6a6f
+        Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+        Target: x86_64-apple-darwin22.6.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 13.0.0 13.3 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o cmTC_a6a6f -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_a6a6f.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld  PROJECT:ld64-857.1
+        BUILD 23:13:24 May  7 2023
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        Library search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib
+        Framework search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:137 (message)"
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:25 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include]
+          add: [/Library/Developer/CommandLineTools/usr/include]
+        end of search list found
+        collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include]
+        collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+        implicit include dirs: [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include;/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:25 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-IAEyWS']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/local/Cellar/cmake/3.29.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a6a6f/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a6a6f.dir/build.make CMakeFiles/cmTC_a6a6f.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_a6a6f.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_a6a6f.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_a6a6f.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_a6a6f.dir/CMakeCCompilerABI.c.o -c /usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Apple clang version 14.0.3 (clang-1403.0.22.14.1)]
+        ignore line: [Target: x86_64-apple-darwin22.6.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=13.3 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 857.1 -v -fcoverage-compilation-dir=/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-IAEyWS -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3 -dependency-file CMakeFiles/cmTC_a6a6f.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_a6a6f.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-IAEyWS -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -no-opaque-pointers -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_a6a6f.dir/CMakeCCompilerABI.c.o -x c /usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 14.0.3 (clang-1403.0.22.14.1) default target x86_64-apple-darwin22.6.0]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking C executable cmTC_a6a6f]
+        ignore line: [/usr/local/Cellar/cmake/3.29.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6a6f.dir/link.txt --verbose=1]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_a6a6f.dir/CMakeCCompilerABI.c.o -o cmTC_a6a6f]
+        ignore line: [Apple clang version 14.0.3 (clang-1403.0.22.14.1)]
+        ignore line: [Target: x86_64-apple-darwin22.6.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 13.0.0 13.3 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o cmTC_a6a6f -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_a6a6f.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
+          arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [x86_64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [13.0.0] ==> ignore
+          arg [13.3] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_a6a6f] ==> ignore
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_a6a6f.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lSystem] ==> lib [System]
+          arg [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
+        linker tool for 'C': /Library/Developer/CommandLineTools/usr/bin/ld
+        Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib]
+        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/]
+        remove lib [System]
+        remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib]
+        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib]
+        implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:25 (project)"
+    message: |
+      Running the C compiler's linker: "/Library/Developer/CommandLineTools/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld  PROJECT:ld64-857.1
+      BUILD 23:13:24 May  7 2023
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 14.0.3, (clang-1403.0.22.14.1) (static support for 29, runtime is 29)
+      TAPI support using: Apple TAPI version 14.0.3 (tapi-1403.0.5.1)
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:25 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-68YxTI"
+      binary: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-68YxTI"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-68YxTI'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.29.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ccd2c/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ccd2c.dir/build.make CMakeFiles/cmTC_ccd2c.dir/build
+        Building CXX object CMakeFiles/cmTC_ccd2c.dir/CMakeCXXCompilerABI.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_ccd2c.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_ccd2c.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_ccd2c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+        Target: x86_64-apple-darwin22.6.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=13.3 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 857.1 -v -fcoverage-compilation-dir=/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-68YxTI -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3 -dependency-file CMakeFiles/cmTC_ccd2c.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_ccd2c.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -stdlib=libc++ -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-68YxTI -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -no-opaque-pointers -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_ccd2c.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 14.0.3 (clang-1403.0.22.14.1) default target x86_64-apple-darwin22.6.0
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1
+         /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include
+         /Library/Developer/CommandLineTools/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking CXX executable cmTC_ccd2c
+        /usr/local/Cellar/cmake/3.29.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccd2c.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_ccd2c.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ccd2c
+        Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+        Target: x86_64-apple-darwin22.6.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 13.0.0 13.3 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o cmTC_ccd2c -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_ccd2c.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld  PROJECT:ld64-857.1
+        BUILD 23:13:24 May  7 2023
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        Library search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib
+        Framework search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:137 (message)"
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:25 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1]
+          add: [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include]
+          add: [/Library/Developer/CommandLineTools/usr/include]
+        end of search list found
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1]
+        collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include]
+        collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+        implicit include dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1;/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include;/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:25 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-68YxTI']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/local/Cellar/cmake/3.29.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ccd2c/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ccd2c.dir/build.make CMakeFiles/cmTC_ccd2c.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_ccd2c.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_ccd2c.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_ccd2c.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_ccd2c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Apple clang version 14.0.3 (clang-1403.0.22.14.1)]
+        ignore line: [Target: x86_64-apple-darwin22.6.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=13.3 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 857.1 -v -fcoverage-compilation-dir=/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-68YxTI -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3 -dependency-file CMakeFiles/cmTC_ccd2c.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_ccd2c.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -stdlib=libc++ -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-68YxTI -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -no-opaque-pointers -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_ccd2c.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 14.0.3 (clang-1403.0.22.14.1) default target x86_64-apple-darwin22.6.0]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_ccd2c]
+        ignore line: [/usr/local/Cellar/cmake/3.29.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccd2c.dir/link.txt --verbose=1]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_ccd2c.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ccd2c]
+        ignore line: [Apple clang version 14.0.3 (clang-1403.0.22.14.1)]
+        ignore line: [Target: x86_64-apple-darwin22.6.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 13.0.0 13.3 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o cmTC_ccd2c -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_ccd2c.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
+          arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [x86_64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [13.0.0] ==> ignore
+          arg [13.3] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_ccd2c] ==> ignore
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_ccd2c.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lc++] ==> lib [c++]
+          arg [-lSystem] ==> lib [System]
+          arg [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
+        linker tool for 'CXX': /Library/Developer/CommandLineTools/usr/bin/ld
+        Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib]
+        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/]
+        remove lib [System]
+        remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib]
+        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks]
+        implicit libs: [c++]
+        implicit objs: []
+        implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib]
+        implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:25 (project)"
+    message: |
+      Running the CXX compiler's linker: "/Library/Developer/CommandLineTools/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld  PROJECT:ld64-857.1
+      BUILD 23:13:24 May  7 2023
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 14.0.3, (clang-1403.0.22.14.1) (static support for 29, runtime is 29)
+      TAPI support using: Apple TAPI version 14.0.3 (tapi-1403.0.5.1)
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "buildscripts/cmake/GetPlatformInfo.cmake:70 (try_run)"
+      - "buildscripts/cmake/GetPaths.cmake:1 (include)"
+      - "CMakeLists.txt:45 (include)"
+    directories:
+      source: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeTmp"
+      binary: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/andresgarcia/MuseScore;/Users/andresgarcia/MuseScore/buildscripts;/Users/andresgarcia/MuseScore/buildscripts/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.29.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f0057/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f0057.dir/build.make CMakeFiles/cmTC_f0057.dir/build
+        Building C object CMakeFiles/cmTC_f0057.dir/arch.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -MD -MT CMakeFiles/cmTC_f0057.dir/arch.c.o -MF CMakeFiles/cmTC_f0057.dir/arch.c.o.d -o CMakeFiles/cmTC_f0057.dir/arch.c.o -c /Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/arch.c
+        /Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/arch.c:9:10: error: cmake_ARCH x86_64
+                #error cmake_ARCH x86_64
+                 ^
+        /Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/arch.c:11:6: error: cmake_ARCH unknown
+            #error cmake_ARCH unknown
+             ^
+        2 errors generated.
+        make[1]: *** [CMakeFiles/cmTC_f0057.dir/arch.c.o] Error 1
+        make: *** [cmTC_f0057/fast] Error 2
+        
+      exitCode: 2
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/usr/local/opt/qt/lib/cmake/Qt6/Qt6Dependencies.cmake:27 (_qt_internal_find_third_party_dependencies)"
+      - "/usr/local/opt/qt/lib/cmake/Qt6/Qt6Config.cmake:122 (include)"
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/usr/local/opt/qt/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:20 (find_dependency)"
+      - "/usr/local/opt/qt/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:45 (include)"
+      - "buildscripts/cmake/FindQt6.cmake:50 (find_package)"
+      - "CMakeLists.txt:145 (include)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-ZErNO9"
+      binary: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-ZErNO9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/andresgarcia/MuseScore;/Users/andresgarcia/MuseScore/buildscripts;/Users/andresgarcia/MuseScore/buildscripts/cmake;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.15"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-ZErNO9'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.29.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6b820/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6b820.dir/build.make CMakeFiles/cmTC_6b820.dir/build
+        Building C object CMakeFiles/cmTC_6b820.dir/src.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15 -MD -MT CMakeFiles/cmTC_6b820.dir/src.c.o -MF CMakeFiles/cmTC_6b820.dir/src.c.o.d -o CMakeFiles/cmTC_6b820.dir/src.c.o -c /Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-ZErNO9/src.c
+        Linking C executable cmTC_6b820
+        /usr/local/Cellar/cmake/3.29.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b820.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_6b820.dir/src.c.o -o cmTC_6b820
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/FindWrapAtomic.cmake:36 (check_cxx_source_compiles)"
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/usr/local/opt/qt/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:33 (_qt_internal_find_third_party_dependencies)"
+      - "/usr/local/opt/qt/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:45 (include)"
+      - "buildscripts/cmake/FindQt6.cmake:50 (find_package)"
+      - "CMakeLists.txt:145 (include)"
+    checks:
+      - "Performing Test HAVE_STDATOMIC"
+    directories:
+      source: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-IVZDox"
+      binary: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-IVZDox"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/andresgarcia/MuseScore;/Users/andresgarcia/MuseScore/buildscripts;/Users/andresgarcia/MuseScore/buildscripts/cmake;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.15"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "HAVE_STDATOMIC"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-IVZDox'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.29.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fd4bb/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_fd4bb.dir/build.make CMakeFiles/cmTC_fd4bb.dir/build
+        Building CXX object CMakeFiles/cmTC_fd4bb.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_STDATOMIC  -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15 -MD -MT CMakeFiles/cmTC_fd4bb.dir/src.cxx.o -MF CMakeFiles/cmTC_fd4bb.dir/src.cxx.o.d -o CMakeFiles/cmTC_fd4bb.dir/src.cxx.o -c /Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-IVZDox/src.cxx
+        Linking CXX executable cmTC_fd4bb
+        /usr/local/Cellar/cmake/3.29.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd4bb.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_fd4bb.dir/src.cxx.o -o cmTC_fd4bb
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "src/framework/audio/thirdparty/opus/opus_config.cmake:14 (check_library_exists)"
+      - "src/framework/audio/thirdparty/opus/CMakeLists.txt:34 (include)"
+    checks:
+      - "Looking for floor in m"
+    directories:
+      source: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-GF7mZW"
+      binary: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-GF7mZW"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/andresgarcia/MuseScore;/Users/andresgarcia/MuseScore/buildscripts;/Users/andresgarcia/MuseScore/buildscripts/cmake;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.15"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "HAVE_LIBM"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-GF7mZW'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.29.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5edf9/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_5edf9.dir/build.make CMakeFiles/cmTC_5edf9.dir/build
+        Building C object CMakeFiles/cmTC_5edf9.dir/CheckFunctionExists.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=floor -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15 -MD -MT CMakeFiles/cmTC_5edf9.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_5edf9.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_5edf9.dir/CheckFunctionExists.c.o -c /Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-GF7mZW/CheckFunctionExists.c
+        /Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-GF7mZW/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'floor' [-Wincompatible-library-redeclaration]
+          CHECK_FUNCTION_EXISTS(void);
+          ^
+        <command line>:1:31: note: expanded from macro 'CHECK_FUNCTION_EXISTS'
+        #define CHECK_FUNCTION_EXISTS floor
+                                      ^
+        /Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-GF7mZW/CheckFunctionExists.c:7:3: note: 'floor' is a builtin with type 'double (double)'
+        <command line>:1:31: note: expanded from macro 'CHECK_FUNCTION_EXISTS'
+        #define CHECK_FUNCTION_EXISTS floor
+                                      ^
+        1 warning generated.
+        Linking C executable cmTC_5edf9
+        /usr/local/Cellar/cmake/3.29.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5edf9.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=floor -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_5edf9.dir/CheckFunctionExists.c.o -o cmTC_5edf9  -lm
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "src/framework/audio/thirdparty/opus/opus_functions.cmake:203 (check_include_file)"
+      - "src/framework/audio/thirdparty/opus/opus_config.cmake:29 (opus_supports_cpu_detection)"
+      - "src/framework/audio/thirdparty/opus/CMakeLists.txt:34 (include)"
+    checks:
+      - "Looking for cpuid.h"
+    directories:
+      source: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-0R1txQ"
+      binary: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-0R1txQ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/andresgarcia/MuseScore;/Users/andresgarcia/MuseScore/buildscripts;/Users/andresgarcia/MuseScore/buildscripts/cmake;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.15"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "HAVE_CPUID_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-0R1txQ'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.29.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b2115/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b2115.dir/build.make CMakeFiles/cmTC_b2115.dir/build
+        Building C object CMakeFiles/cmTC_b2115.dir/CheckIncludeFile.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15 -MD -MT CMakeFiles/cmTC_b2115.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_b2115.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_b2115.dir/CheckIncludeFile.c.o -c /Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-0R1txQ/CheckIncludeFile.c
+        Linking C executable cmTC_b2115
+        /usr/local/Cellar/cmake/3.29.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2115.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b2115.dir/CheckIncludeFile.c.o -o cmTC_b2115
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "src/framework/audio/thirdparty/opus/opus_functions.cmake:111 (check_include_file)"
+      - "src/framework/audio/thirdparty/opus/opus_config.cmake:32 (opus_detect_sse)"
+      - "src/framework/audio/thirdparty/opus/CMakeLists.txt:34 (include)"
+    checks:
+      - "Looking for xmmintrin.h"
+    directories:
+      source: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-u5Yhey"
+      binary: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-u5Yhey"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/andresgarcia/MuseScore;/Users/andresgarcia/MuseScore/buildscripts;/Users/andresgarcia/MuseScore/buildscripts/cmake;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.15"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "HAVE_XMMINTRIN_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-u5Yhey'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.29.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_df968/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_df968.dir/build.make CMakeFiles/cmTC_df968.dir/build
+        Building C object CMakeFiles/cmTC_df968.dir/CheckIncludeFile.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15 -MD -MT CMakeFiles/cmTC_df968.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_df968.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_df968.dir/CheckIncludeFile.c.o -c /Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-u5Yhey/CheckIncludeFile.c
+        Linking C executable cmTC_df968
+        /usr/local/Cellar/cmake/3.29.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df968.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_df968.dir/CheckIncludeFile.c.o -o cmTC_df968
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "src/framework/audio/thirdparty/opus/opus_functions.cmake:101 (check_c_compiler_flag)"
+      - "src/framework/audio/thirdparty/opus/opus_functions.cmake:123 (check_flag)"
+      - "src/framework/audio/thirdparty/opus/opus_config.cmake:32 (opus_detect_sse)"
+      - "src/framework/audio/thirdparty/opus/CMakeLists.txt:34 (include)"
+    checks:
+      - "Performing Test SSE1_SUPPORTED"
+    directories:
+      source: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-LfgNw3"
+      binary: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-LfgNw3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/andresgarcia/MuseScore;/Users/andresgarcia/MuseScore/buildscripts;/Users/andresgarcia/MuseScore/buildscripts/cmake;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.15"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "SSE1_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-LfgNw3'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.29.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_14a80/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_14a80.dir/build.make CMakeFiles/cmTC_14a80.dir/build
+        Building C object CMakeFiles/cmTC_14a80.dir/src.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc -DSSE1_SUPPORTED  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15   -msse -MD -MT CMakeFiles/cmTC_14a80.dir/src.c.o -MF CMakeFiles/cmTC_14a80.dir/src.c.o.d -o CMakeFiles/cmTC_14a80.dir/src.c.o -c /Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-LfgNw3/src.c
+        Linking C executable cmTC_14a80
+        /usr/local/Cellar/cmake/3.29.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14a80.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_14a80.dir/src.c.o -o cmTC_14a80
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "src/framework/audio/thirdparty/opus/opus_functions.cmake:131 (check_include_file)"
+      - "src/framework/audio/thirdparty/opus/opus_config.cmake:32 (opus_detect_sse)"
+      - "src/framework/audio/thirdparty/opus/CMakeLists.txt:34 (include)"
+    checks:
+      - "Looking for emmintrin.h"
+    directories:
+      source: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-sifYdu"
+      binary: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-sifYdu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/andresgarcia/MuseScore;/Users/andresgarcia/MuseScore/buildscripts;/Users/andresgarcia/MuseScore/buildscripts/cmake;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.15"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "HAVE_EMMINTRIN_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-sifYdu'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.29.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_93cec/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_93cec.dir/build.make CMakeFiles/cmTC_93cec.dir/build
+        Building C object CMakeFiles/cmTC_93cec.dir/CheckIncludeFile.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15 -MD -MT CMakeFiles/cmTC_93cec.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_93cec.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_93cec.dir/CheckIncludeFile.c.o -c /Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-sifYdu/CheckIncludeFile.c
+        Linking C executable cmTC_93cec
+        /usr/local/Cellar/cmake/3.29.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93cec.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_93cec.dir/CheckIncludeFile.c.o -o cmTC_93cec
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "src/framework/audio/thirdparty/opus/opus_functions.cmake:101 (check_c_compiler_flag)"
+      - "src/framework/audio/thirdparty/opus/opus_functions.cmake:142 (check_flag)"
+      - "src/framework/audio/thirdparty/opus/opus_config.cmake:32 (opus_detect_sse)"
+      - "src/framework/audio/thirdparty/opus/CMakeLists.txt:34 (include)"
+    checks:
+      - "Performing Test SSE2_SUPPORTED"
+    directories:
+      source: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-EvQZPH"
+      binary: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-EvQZPH"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/andresgarcia/MuseScore;/Users/andresgarcia/MuseScore/buildscripts;/Users/andresgarcia/MuseScore/buildscripts/cmake;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.15"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "SSE2_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-EvQZPH'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.29.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_37261/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_37261.dir/build.make CMakeFiles/cmTC_37261.dir/build
+        Building C object CMakeFiles/cmTC_37261.dir/src.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc -DSSE2_SUPPORTED  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15   -msse2 -MD -MT CMakeFiles/cmTC_37261.dir/src.c.o -MF CMakeFiles/cmTC_37261.dir/src.c.o.d -o CMakeFiles/cmTC_37261.dir/src.c.o -c /Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-EvQZPH/src.c
+        Linking C executable cmTC_37261
+        /usr/local/Cellar/cmake/3.29.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37261.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_37261.dir/src.c.o -o cmTC_37261
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "src/framework/audio/thirdparty/opus/opus_functions.cmake:150 (check_include_file)"
+      - "src/framework/audio/thirdparty/opus/opus_config.cmake:32 (opus_detect_sse)"
+      - "src/framework/audio/thirdparty/opus/CMakeLists.txt:34 (include)"
+    checks:
+      - "Looking for smmintrin.h"
+    directories:
+      source: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-iFaA5u"
+      binary: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-iFaA5u"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/andresgarcia/MuseScore;/Users/andresgarcia/MuseScore/buildscripts;/Users/andresgarcia/MuseScore/buildscripts/cmake;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.15"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "HAVE_SMMINTRIN_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-iFaA5u'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.29.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_dc81f/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_dc81f.dir/build.make CMakeFiles/cmTC_dc81f.dir/build
+        Building C object CMakeFiles/cmTC_dc81f.dir/CheckIncludeFile.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15 -MD -MT CMakeFiles/cmTC_dc81f.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_dc81f.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_dc81f.dir/CheckIncludeFile.c.o -c /Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-iFaA5u/CheckIncludeFile.c
+        Linking C executable cmTC_dc81f
+        /usr/local/Cellar/cmake/3.29.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc81f.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_dc81f.dir/CheckIncludeFile.c.o -o cmTC_dc81f
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "src/framework/audio/thirdparty/opus/opus_functions.cmake:101 (check_c_compiler_flag)"
+      - "src/framework/audio/thirdparty/opus/opus_functions.cmake:161 (check_flag)"
+      - "src/framework/audio/thirdparty/opus/opus_config.cmake:32 (opus_detect_sse)"
+      - "src/framework/audio/thirdparty/opus/CMakeLists.txt:34 (include)"
+    checks:
+      - "Performing Test SSE4_1_SUPPORTED"
+    directories:
+      source: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-LKsqha"
+      binary: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-LKsqha"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/andresgarcia/MuseScore;/Users/andresgarcia/MuseScore/buildscripts;/Users/andresgarcia/MuseScore/buildscripts/cmake;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.15"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "SSE4_1_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-LKsqha'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.29.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9cc13/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_9cc13.dir/build.make CMakeFiles/cmTC_9cc13.dir/build
+        Building C object CMakeFiles/cmTC_9cc13.dir/src.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc -DSSE4_1_SUPPORTED  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15   -msse4.1 -MD -MT CMakeFiles/cmTC_9cc13.dir/src.c.o -MF CMakeFiles/cmTC_9cc13.dir/src.c.o.d -o CMakeFiles/cmTC_9cc13.dir/src.c.o -c /Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-LKsqha/src.c
+        Linking C executable cmTC_9cc13
+        /usr/local/Cellar/cmake/3.29.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9cc13.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_9cc13.dir/src.c.o -o cmTC_9cc13
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "src/framework/audio/thirdparty/opus/opus_functions.cmake:169 (check_include_file)"
+      - "src/framework/audio/thirdparty/opus/opus_config.cmake:32 (opus_detect_sse)"
+      - "src/framework/audio/thirdparty/opus/CMakeLists.txt:34 (include)"
+    checks:
+      - "Looking for immintrin.h"
+    directories:
+      source: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-FgeR70"
+      binary: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-FgeR70"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/andresgarcia/MuseScore;/Users/andresgarcia/MuseScore/buildscripts;/Users/andresgarcia/MuseScore/buildscripts/cmake;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.15"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "HAVE_IMMINTRIN_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-FgeR70'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.29.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_643f4/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_643f4.dir/build.make CMakeFiles/cmTC_643f4.dir/build
+        Building C object CMakeFiles/cmTC_643f4.dir/CheckIncludeFile.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15 -MD -MT CMakeFiles/cmTC_643f4.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_643f4.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_643f4.dir/CheckIncludeFile.c.o -c /Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-FgeR70/CheckIncludeFile.c
+        Linking C executable cmTC_643f4
+        /usr/local/Cellar/cmake/3.29.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_643f4.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_643f4.dir/CheckIncludeFile.c.o -o cmTC_643f4
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "src/framework/audio/thirdparty/opus/opus_functions.cmake:101 (check_c_compiler_flag)"
+      - "src/framework/audio/thirdparty/opus/opus_functions.cmake:174 (check_flag)"
+      - "src/framework/audio/thirdparty/opus/opus_config.cmake:32 (opus_detect_sse)"
+      - "src/framework/audio/thirdparty/opus/CMakeLists.txt:34 (include)"
+    checks:
+      - "Performing Test AVX_SUPPORTED"
+    directories:
+      source: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-bKyw8X"
+      binary: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-bKyw8X"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/andresgarcia/MuseScore;/Users/andresgarcia/MuseScore/buildscripts;/Users/andresgarcia/MuseScore/buildscripts/cmake;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.15"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "AVX_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-bKyw8X'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.29.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1a548/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1a548.dir/build.make CMakeFiles/cmTC_1a548.dir/build
+        Building C object CMakeFiles/cmTC_1a548.dir/src.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc -DAVX_SUPPORTED  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15   -mavx -MD -MT CMakeFiles/cmTC_1a548.dir/src.c.o -MF CMakeFiles/cmTC_1a548.dir/src.c.o.d -o CMakeFiles/cmTC_1a548.dir/src.c.o -c /Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-bKyw8X/src.c
+        Linking C executable cmTC_1a548
+        /usr/local/Cellar/cmake/3.29.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a548.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_1a548.dir/src.c.o -o cmTC_1a548
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "src/framework/audio/thirdparty/flac/flac-1.4.3/cmake/UseSystemExtensions.cmake:3 (check_c_source_compiles)"
+      - "src/framework/audio/thirdparty/flac/GetFlacCompileInfo.cmake:7 (include)"
+      - "src/framework/audio/thirdparty/flac/CMakeLists.txt:11 (include)"
+    checks:
+      - "Performing Test HAVE_MBSTATE"
+    directories:
+      source: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-a89pEc"
+      binary: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-a89pEc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/andresgarcia/MuseScore;/Users/andresgarcia/MuseScore/buildscripts;/Users/andresgarcia/MuseScore/buildscripts/cmake;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.15"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "HAVE_MBSTATE"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-a89pEc'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.29.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4a3cb/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4a3cb.dir/build.make CMakeFiles/cmTC_4a3cb.dir/build
+        Building C object CMakeFiles/cmTC_4a3cb.dir/src.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc -DHAVE_MBSTATE  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15 -MD -MT CMakeFiles/cmTC_4a3cb.dir/src.c.o -MF CMakeFiles/cmTC_4a3cb.dir/src.c.o.d -o CMakeFiles/cmTC_4a3cb.dir/src.c.o -c /Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-a89pEc/src.c
+        Linking C executable cmTC_4a3cb
+        /usr/local/Cellar/cmake/3.29.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a3cb.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_4a3cb.dir/src.c.o -o cmTC_4a3cb
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "src/framework/audio/thirdparty/flac/flac-1.4.3/cmake/UseSystemExtensions.cmake:16 (check_c_source_compiles)"
+      - "src/framework/audio/thirdparty/flac/GetFlacCompileInfo.cmake:7 (include)"
+      - "src/framework/audio/thirdparty/flac/CMakeLists.txt:11 (include)"
+    checks:
+      - "Performing Test DODEFINE_EXTENSIONS"
+    directories:
+      source: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-sblEA2"
+      binary: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-sblEA2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/andresgarcia/MuseScore;/Users/andresgarcia/MuseScore/buildscripts;/Users/andresgarcia/MuseScore/buildscripts/cmake;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.15"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "DODEFINE_EXTENSIONS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-sblEA2'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.29.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7d63d/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_7d63d.dir/build.make CMakeFiles/cmTC_7d63d.dir/build
+        Building C object CMakeFiles/cmTC_7d63d.dir/src.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc -DDODEFINE_EXTENSIONS  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15 -MD -MT CMakeFiles/cmTC_7d63d.dir/src.c.o -MF CMakeFiles/cmTC_7d63d.dir/src.c.o.d -o CMakeFiles/cmTC_7d63d.dir/src.c.o -c /Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-sblEA2/src.c
+        Linking C executable cmTC_7d63d
+        /usr/local/Cellar/cmake/3.29.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d63d.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_7d63d.dir/src.c.o -o cmTC_7d63d
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "src/framework/audio/thirdparty/flac/GetFlacCompileInfo.cmake:9 (check_include_file)"
+      - "src/framework/audio/thirdparty/flac/CMakeLists.txt:11 (include)"
+    checks:
+      - "Looking for byteswap.h"
+    directories:
+      source: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-kTd1Pd"
+      binary: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-kTd1Pd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/andresgarcia/MuseScore;/Users/andresgarcia/MuseScore/buildscripts;/Users/andresgarcia/MuseScore/buildscripts/cmake;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.15"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "HAVE_BYTESWAP_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-kTd1Pd'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.29.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cbbd9/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_cbbd9.dir/build.make CMakeFiles/cmTC_cbbd9.dir/build
+        Building C object CMakeFiles/cmTC_cbbd9.dir/CheckIncludeFile.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15 -MD -MT CMakeFiles/cmTC_cbbd9.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_cbbd9.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_cbbd9.dir/CheckIncludeFile.c.o -c /Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-kTd1Pd/CheckIncludeFile.c
+        /Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-kTd1Pd/CheckIncludeFile.c:1:10: fatal error: 'byteswap.h' file not found
+        #include <byteswap.h>
+                 ^~~~~~~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_cbbd9.dir/CheckIncludeFile.c.o] Error 1
+        make: *** [cmTC_cbbd9/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "src/framework/audio/thirdparty/flac/GetFlacCompileInfo.cmake:10 (check_include_file)"
+      - "src/framework/audio/thirdparty/flac/CMakeLists.txt:11 (include)"
+    checks:
+      - "Looking for inttypes.h"
+    directories:
+      source: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-Ohyv06"
+      binary: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-Ohyv06"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/andresgarcia/MuseScore;/Users/andresgarcia/MuseScore/buildscripts;/Users/andresgarcia/MuseScore/buildscripts/cmake;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.15"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "HAVE_INTTYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-Ohyv06'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.29.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_aaacc/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_aaacc.dir/build.make CMakeFiles/cmTC_aaacc.dir/build
+        Building C object CMakeFiles/cmTC_aaacc.dir/CheckIncludeFile.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15 -MD -MT CMakeFiles/cmTC_aaacc.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_aaacc.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_aaacc.dir/CheckIncludeFile.c.o -c /Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-Ohyv06/CheckIncludeFile.c
+        Linking C executable cmTC_aaacc
+        /usr/local/Cellar/cmake/3.29.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aaacc.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_aaacc.dir/CheckIncludeFile.c.o -o cmTC_aaacc
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "src/framework/audio/thirdparty/flac/GetFlacCompileInfo.cmake:11 (check_include_file)"
+      - "src/framework/audio/thirdparty/flac/CMakeLists.txt:11 (include)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-3fgUBG"
+      binary: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-3fgUBG"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/andresgarcia/MuseScore;/Users/andresgarcia/MuseScore/buildscripts;/Users/andresgarcia/MuseScore/buildscripts/cmake;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.15"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-3fgUBG'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.29.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_478a5/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_478a5.dir/build.make CMakeFiles/cmTC_478a5.dir/build
+        Building C object CMakeFiles/cmTC_478a5.dir/CheckIncludeFile.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15 -MD -MT CMakeFiles/cmTC_478a5.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_478a5.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_478a5.dir/CheckIncludeFile.c.o -c /Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-3fgUBG/CheckIncludeFile.c
+        Linking C executable cmTC_478a5
+        /usr/local/Cellar/cmake/3.29.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_478a5.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_478a5.dir/CheckIncludeFile.c.o -o cmTC_478a5
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "src/framework/audio/thirdparty/flac/GetFlacCompileInfo.cmake:12 (check_include_file)"
+      - "src/framework/audio/thirdparty/flac/CMakeLists.txt:11 (include)"
+    checks:
+      - "Looking for stdbool.h"
+    directories:
+      source: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-lDJPiv"
+      binary: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-lDJPiv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/andresgarcia/MuseScore;/Users/andresgarcia/MuseScore/buildscripts;/Users/andresgarcia/MuseScore/buildscripts/cmake;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.15"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "HAVE_STDBOOL_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-lDJPiv'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.29.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_38f62/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_38f62.dir/build.make CMakeFiles/cmTC_38f62.dir/build
+        Building C object CMakeFiles/cmTC_38f62.dir/CheckIncludeFile.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15 -MD -MT CMakeFiles/cmTC_38f62.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_38f62.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_38f62.dir/CheckIncludeFile.c.o -c /Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-lDJPiv/CheckIncludeFile.c
+        Linking C executable cmTC_38f62
+        /usr/local/Cellar/cmake/3.29.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38f62.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_38f62.dir/CheckIncludeFile.c.o -o cmTC_38f62
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "src/framework/audio/thirdparty/flac/GetFlacCompileInfo.cmake:13 (check_include_file)"
+      - "src/framework/audio/thirdparty/flac/CMakeLists.txt:11 (include)"
+    checks:
+      - "Looking for arm_neon.h"
+    directories:
+      source: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-SmPiET"
+      binary: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-SmPiET"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/andresgarcia/MuseScore;/Users/andresgarcia/MuseScore/buildscripts;/Users/andresgarcia/MuseScore/buildscripts/cmake;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.15"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "FLAC__HAS_NEONINTRIN"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-SmPiET'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.29.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_dcf02/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_dcf02.dir/build.make CMakeFiles/cmTC_dcf02.dir/build
+        Building C object CMakeFiles/cmTC_dcf02.dir/CheckIncludeFile.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15 -MD -MT CMakeFiles/cmTC_dcf02.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_dcf02.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_dcf02.dir/CheckIncludeFile.c.o -c /Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-SmPiET/CheckIncludeFile.c
+        In file included from /Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-SmPiET/CheckIncludeFile.c:1:
+        /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/arm_neon.h:28:2: error: "NEON intrinsics not available with the soft-float ABI. Please use -mfloat-abi=softfp or -mfloat-abi=hard"
+        #error "NEON intrinsics not available with the soft-float ABI. Please use -mfloat-abi=softfp or -mfloat-abi=hard"
+         ^
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_dcf02.dir/CheckIncludeFile.c.o] Error 1
+        make: *** [cmTC_dcf02/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "src/framework/audio/thirdparty/flac/GetFlacCompileInfo.cmake:22 (check_include_file)"
+      - "src/framework/audio/thirdparty/flac/CMakeLists.txt:11 (include)"
+    checks:
+      - "Looking for x86intrin.h"
+    directories:
+      source: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-QiTUtU"
+      binary: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-QiTUtU"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/andresgarcia/MuseScore;/Users/andresgarcia/MuseScore/buildscripts;/Users/andresgarcia/MuseScore/buildscripts/cmake;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.15"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "FLAC__HAS_X86INTRIN"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-QiTUtU'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.29.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_bc43b/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_bc43b.dir/build.make CMakeFiles/cmTC_bc43b.dir/build
+        Building C object CMakeFiles/cmTC_bc43b.dir/CheckIncludeFile.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15 -MD -MT CMakeFiles/cmTC_bc43b.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_bc43b.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_bc43b.dir/CheckIncludeFile.c.o -c /Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-QiTUtU/CheckIncludeFile.c
+        Linking C executable cmTC_bc43b
+        /usr/local/Cellar/cmake/3.29.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc43b.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_bc43b.dir/CheckIncludeFile.c.o -o cmTC_bc43b
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "src/framework/audio/thirdparty/flac/GetFlacCompileInfo.cmake:25 (check_function_exists)"
+      - "src/framework/audio/thirdparty/flac/CMakeLists.txt:11 (include)"
+    checks:
+      - "Looking for fseeko"
+    directories:
+      source: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-Z5SBGC"
+      binary: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-Z5SBGC"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/andresgarcia/MuseScore;/Users/andresgarcia/MuseScore/buildscripts;/Users/andresgarcia/MuseScore/buildscripts/cmake;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.15"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "HAVE_FSEEKO"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-Z5SBGC'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.29.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1dfc1/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1dfc1.dir/build.make CMakeFiles/cmTC_1dfc1.dir/build
+        Building C object CMakeFiles/cmTC_1dfc1.dir/CheckFunctionExists.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fseeko -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15 -MD -MT CMakeFiles/cmTC_1dfc1.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_1dfc1.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_1dfc1.dir/CheckFunctionExists.c.o -c /Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-Z5SBGC/CheckFunctionExists.c
+        Linking C executable cmTC_1dfc1
+        /usr/local/Cellar/cmake/3.29.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1dfc1.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fseeko -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_1dfc1.dir/CheckFunctionExists.c.o -o cmTC_1dfc1
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "src/framework/audio/thirdparty/flac/GetFlacCompileInfo.cmake:27 (check_c_source_compiles)"
+      - "src/framework/audio/thirdparty/flac/CMakeLists.txt:11 (include)"
+    checks:
+      - "Performing Test HAVE_BSWAP16"
+    directories:
+      source: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-VKdD6q"
+      binary: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-VKdD6q"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/andresgarcia/MuseScore;/Users/andresgarcia/MuseScore/buildscripts;/Users/andresgarcia/MuseScore/buildscripts/cmake;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.15"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "HAVE_BSWAP16"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-VKdD6q'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.29.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3d3b7/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_3d3b7.dir/build.make CMakeFiles/cmTC_3d3b7.dir/build
+        Building C object CMakeFiles/cmTC_3d3b7.dir/src.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc -DHAVE_BSWAP16  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15 -MD -MT CMakeFiles/cmTC_3d3b7.dir/src.c.o -MF CMakeFiles/cmTC_3d3b7.dir/src.c.o.d -o CMakeFiles/cmTC_3d3b7.dir/src.c.o -c /Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-VKdD6q/src.c
+        Linking C executable cmTC_3d3b7
+        /usr/local/Cellar/cmake/3.29.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d3b7.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_3d3b7.dir/src.c.o -o cmTC_3d3b7
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "src/framework/audio/thirdparty/flac/GetFlacCompileInfo.cmake:28 (check_c_source_compiles)"
+      - "src/framework/audio/thirdparty/flac/CMakeLists.txt:11 (include)"
+    checks:
+      - "Performing Test HAVE_BSWAP32"
+    directories:
+      source: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-zKXjax"
+      binary: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-zKXjax"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/andresgarcia/MuseScore;/Users/andresgarcia/MuseScore/buildscripts;/Users/andresgarcia/MuseScore/buildscripts/cmake;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.15"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "HAVE_BSWAP32"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-zKXjax'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.29.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_bbba5/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_bbba5.dir/build.make CMakeFiles/cmTC_bbba5.dir/build
+        Building C object CMakeFiles/cmTC_bbba5.dir/src.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc -DHAVE_BSWAP32  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15 -MD -MT CMakeFiles/cmTC_bbba5.dir/src.c.o -MF CMakeFiles/cmTC_bbba5.dir/src.c.o.d -o CMakeFiles/cmTC_bbba5.dir/src.c.o -c /Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-zKXjax/src.c
+        Linking C executable cmTC_bbba5
+        /usr/local/Cellar/cmake/3.29.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bbba5.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_bbba5.dir/src.c.o -o cmTC_bbba5
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "src/framework/audio/thirdparty/flac/GetFlacCompileInfo.cmake:29 (check_c_source_compiles)"
+      - "src/framework/audio/thirdparty/flac/CMakeLists.txt:11 (include)"
+    checks:
+      - "Performing Test HAVE_LANGINFO_CODESET"
+    directories:
+      source: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-EPF1lc"
+      binary: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-EPF1lc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/andresgarcia/MuseScore;/Users/andresgarcia/MuseScore/buildscripts;/Users/andresgarcia/MuseScore/buildscripts/cmake;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.15"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "HAVE_LANGINFO_CODESET"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-EPF1lc'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.29.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c806a/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c806a.dir/build.make CMakeFiles/cmTC_c806a.dir/build
+        Building C object CMakeFiles/cmTC_c806a.dir/src.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc -DHAVE_LANGINFO_CODESET  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15 -MD -MT CMakeFiles/cmTC_c806a.dir/src.c.o -MF CMakeFiles/cmTC_c806a.dir/src.c.o.d -o CMakeFiles/cmTC_c806a.dir/src.c.o -c /Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-EPF1lc/src.c
+        Linking C executable cmTC_c806a
+        /usr/local/Cellar/cmake/3.29.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c806a.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_c806a.dir/src.c.o -o cmTC_c806a
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "src/framework/audio/thirdparty/flac/GetFlacCompileInfo.cmake:40 (check_c_compiler_flag)"
+      - "src/framework/audio/thirdparty/flac/CMakeLists.txt:11 (include)"
+    checks:
+      - "Performing Test HAVE_STACKREALIGN_FLAG"
+    directories:
+      source: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-KFthBE"
+      binary: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-KFthBE"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/andresgarcia/MuseScore;/Users/andresgarcia/MuseScore/buildscripts;/Users/andresgarcia/MuseScore/buildscripts/cmake;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.15"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "HAVE_STACKREALIGN_FLAG"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-KFthBE'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.29.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8006d/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_8006d.dir/build.make CMakeFiles/cmTC_8006d.dir/build
+        Building C object CMakeFiles/cmTC_8006d.dir/src.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc -DHAVE_STACKREALIGN_FLAG  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15   -mstackrealign -MD -MT CMakeFiles/cmTC_8006d.dir/src.c.o -MF CMakeFiles/cmTC_8006d.dir/src.c.o.d -o CMakeFiles/cmTC_8006d.dir/src.c.o -c /Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-KFthBE/src.c
+        Linking C executable cmTC_8006d
+        /usr/local/Cellar/cmake/3.29.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8006d.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_8006d.dir/src.c.o -o cmTC_8006d
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "src/framework/draw/thirdparty/freetype/CMakeLists.txt:32 (check_include_file)"
+    checks:
+      - "Looking for unistd.h"
+    directories:
+      source: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-T1Tj3h"
+      binary: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-T1Tj3h"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/andresgarcia/MuseScore;/Users/andresgarcia/MuseScore/buildscripts;/Users/andresgarcia/MuseScore/buildscripts/cmake;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.15"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-T1Tj3h'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.29.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c85e6/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c85e6.dir/build.make CMakeFiles/cmTC_c85e6.dir/build
+        Building C object CMakeFiles/cmTC_c85e6.dir/CheckIncludeFile.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15 -MD -MT CMakeFiles/cmTC_c85e6.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_c85e6.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_c85e6.dir/CheckIncludeFile.c.o -c /Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-T1Tj3h/CheckIncludeFile.c
+        Linking C executable cmTC_c85e6
+        /usr/local/Cellar/cmake/3.29.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c85e6.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_c85e6.dir/CheckIncludeFile.c.o -o cmTC_c85e6
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.29.5/share/cmake/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "src/framework/draw/thirdparty/freetype/CMakeLists.txt:33 (check_include_file)"
+    checks:
+      - "Looking for fcntl.h"
+    directories:
+      source: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-tj6hVZ"
+      binary: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-tj6hVZ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/andresgarcia/MuseScore;/Users/andresgarcia/MuseScore/buildscripts;/Users/andresgarcia/MuseScore/buildscripts/cmake;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/local/Cellar/qt/6.7.0_1/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.15"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "HAVE_FCNTL_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-tj6hVZ'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.29.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_bb3b5/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_bb3b5.dir/build.make CMakeFiles/cmTC_bb3b5.dir/build
+        Building C object CMakeFiles/cmTC_bb3b5.dir/CheckIncludeFile.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15 -MD -MT CMakeFiles/cmTC_bb3b5.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_bb3b5.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_bb3b5.dir/CheckIncludeFile.c.o -c /Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeScratch/TryCompile-tj6hVZ/CheckIncludeFile.c
+        Linking C executable cmTC_bb3b5
+        /usr/local/Cellar/cmake/3.29.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb3b5.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_bb3b5.dir/CheckIncludeFile.c.o -o cmTC_bb3b5
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/cmake/GetPlatformInfo.cmake:70 (try_run)"
+      - "build/cmake/GetPaths.cmake:1 (include)"
+      - "CMakeLists.txt:42 (include)"
+    directories:
+      source: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeTmp"
+      binary: "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/andresgarcia/MuseScore;/Users/andresgarcia/MuseScore/build;/Users/andresgarcia/MuseScore/build/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.29.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_947d9/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_947d9.dir/build.make CMakeFiles/cmTC_947d9.dir/build
+        Building C object CMakeFiles/cmTC_947d9.dir/arch.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -MD -MT CMakeFiles/cmTC_947d9.dir/arch.c.o -MF CMakeFiles/cmTC_947d9.dir/arch.c.o.d -o CMakeFiles/cmTC_947d9.dir/arch.c.o -c /Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/arch.c
+        /Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/arch.c:9:10: error: cmake_ARCH x86_64
+                #error cmake_ARCH x86_64
+                 ^
+        /Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/arch.c:11:6: error: cmake_ARCH unknown
+            #error cmake_ARCH unknown
+             ^
+        2 errors generated.
+        make[2]: *** [CMakeFiles/cmTC_947d9.dir/arch.c.o] Error 1
+        make[1]: *** [cmTC_947d9/fast] Error 2
+        
+      exitCode: 2
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+...

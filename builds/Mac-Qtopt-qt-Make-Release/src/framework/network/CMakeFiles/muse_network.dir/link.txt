@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libmuse_network.a CMakeFiles/muse_network.dir/Unity/unity_0_cxx.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libmuse_network.a

@@ -1,0 +1,11 @@
+iex_musedata_autogen/timestamp: \
+	/Users/andresgarcia/MuseScore/build/cmake/SetupModule.cmake \
+	/Users/andresgarcia/MuseScore/build/module.cmake \
+	/Users/andresgarcia/MuseScore/src/importexport/musedata/CMakeLists.txt \
+	/Users/andresgarcia/MuseScore/src/importexport/musedata/internal/musedata.cpp \
+	/Users/andresgarcia/MuseScore/src/importexport/musedata/internal/musedata.h \
+	/Users/andresgarcia/MuseScore/src/importexport/musedata/internal/musedatareader.cpp \
+	/Users/andresgarcia/MuseScore/src/importexport/musedata/internal/musedatareader.h \
+	/Users/andresgarcia/MuseScore/src/importexport/musedata/musedatamodule.cpp \
+	/Users/andresgarcia/MuseScore/src/importexport/musedata/musedatamodule.h \
+	/usr/local/Cellar/cmake/3.29.5/bin/cmake

@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libmpe.a CMakeFiles/mpe.dir/Unity/unity_0_cxx.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libmpe.a

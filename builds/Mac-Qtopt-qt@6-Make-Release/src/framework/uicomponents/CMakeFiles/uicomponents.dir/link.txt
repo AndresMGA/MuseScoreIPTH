@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libuicomponents.a CMakeFiles/uicomponents.dir/Unity/unity_2_cxx.cxx.o CMakeFiles/uicomponents.dir/Unity/unity_1_cxx.cxx.o CMakeFiles/uicomponents.dir/Unity/unity_0_cxx.cxx.o CMakeFiles/uicomponents.dir/view/internal/platform/macos/macospopupviewclosecontroller.mm.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libuicomponents.a

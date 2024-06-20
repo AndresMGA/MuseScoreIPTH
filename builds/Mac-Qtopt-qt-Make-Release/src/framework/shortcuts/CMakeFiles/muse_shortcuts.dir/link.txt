@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libmuse_shortcuts.a CMakeFiles/muse_shortcuts.dir/Unity/unity_0_cxx.cxx.o CMakeFiles/muse_shortcuts.dir/qrc_shortcuts.cpp.o CMakeFiles/muse_shortcuts.dir/internal/platform/macos/macosshortcutsinstancemodel.mm.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libmuse_shortcuts.a

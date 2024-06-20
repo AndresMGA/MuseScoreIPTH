@@ -1,0 +1,21 @@
+fonts_autogen/timestamp: \
+	/Users/andresgarcia/MuseScore/build/cmake/SetupModule.cmake \
+	/Users/andresgarcia/MuseScore/build/module.cmake \
+	/Users/andresgarcia/MuseScore/src/framework/fonts/CMakeLists.txt \
+	/Users/andresgarcia/MuseScore/src/framework/fonts/fonts_Bravura.qrc \
+	/Users/andresgarcia/MuseScore/src/framework/fonts/fonts_Campania.qrc \
+	/Users/andresgarcia/MuseScore/src/framework/fonts/fonts_Edwin.qrc \
+	/Users/andresgarcia/MuseScore/src/framework/fonts/fonts_FinaleBroadway.qrc \
+	/Users/andresgarcia/MuseScore/src/framework/fonts/fonts_FinaleMaestro.qrc \
+	/Users/andresgarcia/MuseScore/src/framework/fonts/fonts_FreeSans.qrc \
+	/Users/andresgarcia/MuseScore/src/framework/fonts/fonts_FreeSerif.qrc \
+	/Users/andresgarcia/MuseScore/src/framework/fonts/fonts_Gootville.qrc \
+	/Users/andresgarcia/MuseScore/src/framework/fonts/fonts_Leland.qrc \
+	/Users/andresgarcia/MuseScore/src/framework/fonts/fonts_MScore.qrc \
+	/Users/andresgarcia/MuseScore/src/framework/fonts/fonts_MuseJazz.qrc \
+	/Users/andresgarcia/MuseScore/src/framework/fonts/fonts_Petaluma.qrc \
+	/Users/andresgarcia/MuseScore/src/framework/fonts/fonts_Smufl.qrc \
+	/Users/andresgarcia/MuseScore/src/framework/fonts/fonts_Tabulature.qrc \
+	/Users/andresgarcia/MuseScore/src/framework/fonts/fontsmodule.cpp \
+	/Users/andresgarcia/MuseScore/src/framework/fonts/fontsmodule.h \
+	/usr/local/Cellar/cmake/3.29.5/bin/cmake

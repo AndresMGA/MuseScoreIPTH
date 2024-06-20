@@ -6,7 +6,7 @@
 .directory
 .idea
 .vscode/
-/builds
+#/builds
 /build_overrides.cmake
 build.release
 build.debug

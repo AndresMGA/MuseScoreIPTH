@@ -1,0 +1,8 @@
+# CMake generated Testfile for 
+# Source directory: /Users/andresgarcia/MuseScore/src/braille/tests
+# Build directory: /Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/src/braille/tests
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(braille_tests "/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt-Make-Release/src/braille/tests/braille_tests")
+set_tests_properties(braille_tests PROPERTIES  _BACKTRACE_TRIPLES "/Users/andresgarcia/MuseScore/src/framework/testing/gtest.cmake;70;add_test;/Users/andresgarcia/MuseScore/src/framework/testing/gtest.cmake;0;;/Users/andresgarcia/MuseScore/buildscripts/cmake/SetupGTest.cmake;21;include;/Users/andresgarcia/MuseScore/buildscripts/cmake/SetupGTest.cmake;0;;/Users/andresgarcia/MuseScore/src/braille/tests/CMakeLists.txt;41;include;/Users/andresgarcia/MuseScore/src/braille/tests/CMakeLists.txt;0;")

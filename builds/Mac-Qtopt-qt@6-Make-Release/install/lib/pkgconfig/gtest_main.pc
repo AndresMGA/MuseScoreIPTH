@@ -1,0 +1,10 @@
+libdir=/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt@6-Make-Release/install/lib
+includedir=/Users/andresgarcia/MuseScore/builds/Mac-Qtopt-qt@6-Make-Release/install/include
+
+Name: gtest_main
+Description: GoogleTest (with main() function)
+Version: 1.11.0
+URL: https://github.com/google/googletest
+Requires: gtest = 1.11.0
+Libs: -L${libdir} -lgtest_main 
+Cflags: -I${includedir} -DGTEST_HAS_PTHREAD=1

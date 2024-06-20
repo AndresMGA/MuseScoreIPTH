@@ -1,0 +1,7 @@
+muse_vst_autogen/timestamp: \
+	/Users/andresgarcia/MuseScore/src/framework/stubs/vst/CMakeLists.txt \
+	/Users/andresgarcia/MuseScore/src/framework/stubs/vst/vstconfigurationstub.cpp \
+	/Users/andresgarcia/MuseScore/src/framework/stubs/vst/vstconfigurationstub.h \
+	/Users/andresgarcia/MuseScore/src/framework/stubs/vst/vststubmodule.cpp \
+	/Users/andresgarcia/MuseScore/src/framework/stubs/vst/vststubmodule.h \
+	/usr/local/Cellar/cmake/3.29.5/bin/cmake

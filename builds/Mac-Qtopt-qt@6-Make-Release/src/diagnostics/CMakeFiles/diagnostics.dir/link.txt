@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libdiagnostics.a CMakeFiles/diagnostics.dir/Unity/unity_2_cxx.cxx.o CMakeFiles/diagnostics.dir/Unity/unity_1_cxx.cxx.o CMakeFiles/diagnostics.dir/Unity/unity_0_cxx.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libdiagnostics.a
