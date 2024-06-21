@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc libmuse_vst.a CMakeFiles/muse_vst.dir/Unity/unity_0_cxx.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib libmuse_vst.a

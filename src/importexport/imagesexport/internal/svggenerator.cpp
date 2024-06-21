@@ -1157,7 +1157,14 @@ void SvgPaintEngine::updateState(const QPaintEngineState& s)
     // stateString = Attribute Settings
 
     // SVG class attribute, based on mu::engraving::ElementType
+    // SVG class attribute, based on mu::engraving::ElementType
+    QString _element_class = getClass(_element);
     stateStream << SVG_CLASS << getClass(_element) << SVG_QUOTE;
+    if (_element_class=="Note" ||_element_class=="Rest"){
+        stateStream 
+        //<<" eid =\""<<_element->eid().toUint64()<<"\" ";
+        <<" timestamp=\""<<_element->tick().ticks()<<"\" ";
+     }
 
     // Brush and Pen attributes
     stateStream << qbrushToSvg(s.brush());

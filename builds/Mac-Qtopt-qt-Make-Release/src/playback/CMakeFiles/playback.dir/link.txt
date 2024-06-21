@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc libplayback.a CMakeFiles/playback.dir/Unity/unity_1_cxx.cxx.o CMakeFiles/playback.dir/Unity/unity_0_cxx.cxx.o CMakeFiles/playback.dir/qrc_playback.cpp.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib libplayback.a

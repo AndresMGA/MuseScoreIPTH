@@ -1,8 +1,0 @@
-commonscene_autogen/timestamp: \
-	/Users/andresgarcia/MuseScore/build/module.cmake \
-	/Users/andresgarcia/MuseScore/src/commonscene/CMakeLists.txt \
-	/Users/andresgarcia/MuseScore/src/commonscene/commonscene.qrc \
-	/Users/andresgarcia/MuseScore/src/commonscene/commonscenemodule.cpp \
-	/Users/andresgarcia/MuseScore/src/commonscene/commonscenemodule.h \
-	/Users/andresgarcia/MuseScore/src/commonscene/commonscenetypes.h \
-	/usr/local/Cellar/cmake/3.29.5/bin/cmake

@@ -1,0 +1,12 @@
+iex_capella_autogen/timestamp: \
+	/Users/andresgarcia/MuseScoreIPTH/build/cmake/SetupModule.cmake \
+	/Users/andresgarcia/MuseScoreIPTH/build/module.cmake \
+	/Users/andresgarcia/MuseScoreIPTH/src/importexport/capella/CMakeLists.txt \
+	/Users/andresgarcia/MuseScoreIPTH/src/importexport/capella/capellamodule.cpp \
+	/Users/andresgarcia/MuseScoreIPTH/src/importexport/capella/capellamodule.h \
+	/Users/andresgarcia/MuseScoreIPTH/src/importexport/capella/internal/capella.cpp \
+	/Users/andresgarcia/MuseScoreIPTH/src/importexport/capella/internal/capella.h \
+	/Users/andresgarcia/MuseScoreIPTH/src/importexport/capella/internal/capellareader.cpp \
+	/Users/andresgarcia/MuseScoreIPTH/src/importexport/capella/internal/capellareader.h \
+	/Users/andresgarcia/MuseScoreIPTH/src/importexport/capella/internal/capxml.cpp \
+	/usr/local/Cellar/cmake/3.29.5/bin/cmake

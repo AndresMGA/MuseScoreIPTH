@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc libiex_bww.a CMakeFiles/iex_bww.dir/Unity/unity_0_cxx.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib libiex_bww.a

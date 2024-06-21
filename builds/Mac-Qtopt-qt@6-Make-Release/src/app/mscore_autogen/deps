@@ -1,9 +1,0 @@
-mscore_autogen/timestamp: \
-	/Users/andresgarcia/MuseScore/build/cmake/GetPlatformInfo.cmake \
-	/Users/andresgarcia/MuseScore/src/app/CMakeLists.txt \
-	/Users/andresgarcia/MuseScore/src/app/app.cpp \
-	/Users/andresgarcia/MuseScore/src/app/app.h \
-	/Users/andresgarcia/MuseScore/src/app/commandlineparser.cpp \
-	/Users/andresgarcia/MuseScore/src/app/commandlineparser.h \
-	/Users/andresgarcia/MuseScore/src/app/main.cpp \
-	/usr/local/Cellar/cmake/3.29.5/bin/cmake

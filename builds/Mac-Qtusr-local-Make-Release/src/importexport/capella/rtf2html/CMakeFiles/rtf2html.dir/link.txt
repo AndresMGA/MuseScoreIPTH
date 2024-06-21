@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc librtf2html.a CMakeFiles/rtf2html.dir/Unity/unity_0_cxx.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib librtf2html.a
